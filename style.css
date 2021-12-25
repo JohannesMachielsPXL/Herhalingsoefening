@@ -219,52 +219,59 @@ tbody th:nth-child(4) {
 tbody th:nth-child(5) {
     background-color: #368050;
 }
-section{
+
+section {
     width: 100%;
     padding-bottom: 5%;
     padding-right: 5px;
     padding-left: 5px;
 }
 
-section p{
+section p {
     padding-left: 5px;
 }
 
-.formrij{
-    width:1030px;
+.formrij {
+    width: 1030px;
 }
-textarea{
+
+textarea {
     height: 150px;
     margin-left: 5px;
     padding-right: 0;
     width: 1020px;
 }
-#naam, #email, #onderwerp{
-    width:30%;
+
+#naam, #email, #onderwerp {
+    width: 30%;
     margin-left: 5px;
     margin-bottom: 10px;
 }
-#naam, #email{
+
+#naam, #email {
     margin-right: 25px;
 }
-#onderwerp{
+
+#onderwerp {
     margin-left: 5px;
 }
 
-input, textarea{
+input, textarea {
     border-radius: 3px;
-    border:0;
+    border: 0;
     color: white;
     background-color: #85d38e;
     padding: 5px;
 }
-#verstuur{
+
+#verstuur {
     width: 1030px;
     background-color: #326544;
     padding-bottom: 5px;
     padding-top: 5px;
     margin-left: 5px;
 }
+
 @media screen and (max-width: 1000px) {
     body, nav, footer, header img {
         width: 700px;
@@ -290,17 +297,20 @@ input, textarea{
     .lastArticle .naam {
         padding-right: 0px;
     }
-    #verstuur{
-        width: 680px;
-    }
-    .formrij{
+
+    #verstuur {
         width: 680px;
     }
 
-    textarea{
+    .formrij {
+        width: 680px;
+    }
+
+    textarea {
         width: 670px;
     }
-    #naam, #email{
+
+    #naam, #email {
         margin-right: 7px;
     }
 }
