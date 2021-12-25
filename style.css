@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    width: 1050px;
+    background-color: #ededed;
+    margin: auto;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    position: relative;
+}
+
+nav {
+    display: block;
+    position: fixed;
+    background-color: rgb(87, 222, 135);
+    height: 55px;
+    width: 1050px;
+    opacity: 70%;
+}
+
+li {
+    display: inline-block;
+    float: left;
+    padding: 5px;
+}
+
+nav a {
+    color: #093156;
+}
+
+nav img {
+    display: inline-block;
+    height: 100%;
+    float: left;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header img {
+    padding-top: 65px;
+}
+
+header h1 {
+    color: white;
+    font-weight: 400;
+    padding-right: 10px;
+    position: absolute;
+    top: 200px;
+    right: 20px;
+
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+
+#titleProducten {
+    padding-left: 40px;
+
+}
+
+#titelAfbeelding {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+#contact {
+    height: 20px;
+}
+
+
+footer {
+    height: 100px;
+    width: 1050px;
+    margin: auto;
+    color: white;
+    background-color: black;
+    display: block;
+    clear: both;
+
+}
+
+footer p {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+article {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 250px;
+    padding: 5px;
+
+}
+
+article p {
+    margin: 0;
+}
+
+.firstArticle .datum {
+    padding-left: 5px;
+}
+
+.lastArticle .naam {
+    padding-right: 5px;
+}
+
+.datum {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: small;
+}
+
+.naam {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: small;
+}
+
+article img {
+    padding-top: 12px;
+    width: 100%;
+}
+
+.beschrijving {
+    font-size: small;
+    height: 100px;
+    overflow: hidden;
+
+}
+
+article:hover {
+    opacity: 70%;
+}
+
+.firstArticle {
+    padding-left: 10px;
+}
+
+.lastArticle {
+    padding-right: 10px;
+}
+
+#more {
+    background-color: #343740;
+    color: white;
+    width: 150px;
+    margin: auto;
+    padding: 5px;
+    display: block;
+    clear: both;
+}
+
+#more a {
+    text-decoration: none;
+    color: white;
+}
+
+article a {
+    text-decoration: none;
+    color: white;
+}
+
+.acties {
+    background-color: #343740;
+    padding: 5px;
+}
+
+table {
+    display: table;
+    width: calc(100% - 10px);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+tr, td, th {
+    border: 1px solid white;
+}
+
+thead th, th {
+    background-color: #326544;
+}
+
+td {
+    background-color: #85d38e;
+    text-align: center;
+}
+
+thead tr:nth-child(2) th:nth-child(3) {
+    background-color: #368050;
+}
+
+tbody td:nth-child(5) {
+    background-color: #b5d8b9;
+}
+
+tbody td:nth-child(4) {
+    background-color: #b5d8b9;
+}
+
+tbody th:nth-child(4) {
+    background-color: #368050;
+}
+
+tbody th:nth-child(5) {
+    background-color: #368050;
+}
+section{
+    width: 100%;
+    padding-bottom: 5%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+section p{
+    padding-left: 5px;
+}
+
+.formrij{
+    width:1030px;
+}
+textarea{
+    height: 150px;
+    margin-left: 5px;
+    padding-right: 0;
+    width: 1020px;
+}
+#naam, #email, #onderwerp{
+    width:30%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#naam, #email{
+    margin-right: 25px;
+}
+#onderwerp{
+    margin-left: 5px;
+}
+
+input, textarea{
+    border-radius: 3px;
+    border:0;
+    color: white;
+    background-color: #85d38e;
+    padding: 5px;
+}
+#verstuur{
+    width: 1030px;
+    background-color: #326544;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+@media screen and (max-width: 1000px) {
+    body, nav, footer, header img {
+        width: 700px;
+    }
+
+    header h1 {
+        top: 150px;
+    }
+
+    article {
+        width: calc(100% / 2 - 10px);
+        padding: 5px;
+    }
+
+    .firstArticle, .lastArticle {
+        padding: 5px;
+    }
+
+    .firstArticle .datum {
+        padding-left: 0px;
+    }
+
+    .lastArticle .naam {
+        padding-right: 0px;
+    }
+    #verstuur{
+        width: 680px;
+    }
+    .formrij{
+        width: 680px;
+    }
+
+    textarea{
+        width: 670px;
+    }
+    #naam, #email{
+        margin-right: 7px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer, header {
+        width: 95%;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        visibility: hidden;
+    }
+
+    article {
+        width: calc(100% - 10px);
+    }
+}
